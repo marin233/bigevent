@@ -47,7 +47,7 @@ $(function () {
                 layer.msg(res.message)
             }
             layer.msg(res.message)
-            localStorage.setItem('Authorization', res.token);
+            localStorage.setItem('token', res.token);
             location.href = 'index.html'
         })
     })
