@@ -20,7 +20,6 @@ function getuser() {
         //     token: data,
         // },
         success: function (res) {
-            console.log(res);
             if (res.status !== 0) {
                 return '获取用户信息失败';
             }
@@ -32,7 +31,6 @@ function getuser() {
 function renderAvater(data) {
     //渲染用户名
     var name = data.nickname || data.username;
-    console.log(name);
     $('#welcome').html('欢迎&nbsp&nbsp' + name);
     //渲染头像
     if (data.user_pic) {
