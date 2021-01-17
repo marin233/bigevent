@@ -42,10 +42,7 @@ function renderAvater(data) {
     }
 }
 
-// 发表文章后跳转到文章列表页面
-// $('#demo').on('click', function () {
-//     console.log('点击了');
-// })
+// 发表文章后切换选择列表样式
 function toggleClassName() {
     console.log('跳转成功');
     $('#demo').addClass('layui-this').siblings('dd').removeClass('layui-this')

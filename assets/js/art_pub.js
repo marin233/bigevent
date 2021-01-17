@@ -94,7 +94,7 @@ $(function () {
                     // window.parent.$('#demo').click();
 
                     location.href = '/article/art_list.html'
-                    //切换左侧边框选中样式
+                    // 切换左侧边框选中样式
                     window.parent.toggleClassName();
 
                 }
